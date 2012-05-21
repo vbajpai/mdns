@@ -1,5 +1,7 @@
 /* Multicast DNS Querier - Vaibhav Bajpai */
 
+#define _GNU_SOURCE
+
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
