@@ -1,24 +1,30 @@
 Multicast DNS
------------------------
+-------------
+- - -
+
 
 mDNS viewer
 -----------
+- - -
 
-    $ gcc viewer.c --Wall -o viewer
-    $ ./viewer
+	>> make
+    >> bin/viewer
 
 ![Imgur](http://i.imgur.com/teZpK.png)
 
 
 mDNS querier
 ------------
+- - -
 
-    $ gcc querier.c --Wall -o querier
-    $ ./querier <ipv4 IP> <port> <name> <type>
+    >> make
+    >> bin/querier <ipv4 IP> <port> <name> <type>
 
 ![Imgur](http://i.imgur.com/DqugB.png)
 
+
 Documents
 ---------
+- - -
 
 * [Report](https://github.com/downloads/vbajpai/mdns/report.pdf)
