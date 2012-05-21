@@ -6,7 +6,7 @@
 cmake_minimum_required(VERSION 2.6)
 
 # identify the project and programming language
-project(traceroute C)
+project(mdns C)
 
 # compiler flags passed as arguments 
 add_definitions(-Wall -Werror -std=c99)
